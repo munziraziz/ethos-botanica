@@ -31,9 +31,11 @@ export default function Modal({ isOpen, onClose, title, children }) {
               </button>
             </div>
             {children}
-            
+
                
           </motion.div>
+
+          
         </>
       )}
     </AnimatePresence>
